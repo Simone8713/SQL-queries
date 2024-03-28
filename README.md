@@ -11,4 +11,4 @@ The dataset of Rockbuster was created by CareerFoundry to use for data analysis.
 # Tools
 The dataset was analyzed using a relational database management system and PostgreSQL.
 # Visualizations
-The visualizations for this project were created in Tableau Public. They can be found here: Rockbuster Visuals
+The visualizations for this project were created in Tableau Public. They can be found here: [Rockbuster Visualizations](https://public.tableau.com/app/profile/simone.van.der.graaf/viz/ProjectRockbuster-Careerfoundry/Map2)  
