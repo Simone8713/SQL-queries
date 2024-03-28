@@ -60,7 +60,7 @@ LIMIT
 5) AS total_amount_paid
 
 
-#  SQL query to find out how many of the top 5 customers are based within each country.
+#  SQL query to find out how many of the top 5 customers are based within each of the 10 countries.
 
 SELECT 
 E.country,
