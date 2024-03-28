@@ -59,7 +59,7 @@ SELECT AVG (total_amount_paid)
 FROM average_amount_cte
 
 
-# SQL CTE query from the subquery to locate the top 5 customers from the top 10 cities, who’ve paid the highest total amount in rental movies to Rockbuster.
+# SQL CTE query from the subquery to find out how many of the top 5 customers are based within each of the 10 countries.
 
 WITH top_5_count_cte (customer_id, first_name, last_name, country, city) AS
 (SELECT
@@ -98,16 +98,14 @@ E.country
 ORDER BY 
 COUNT(B.customer_id) DESC 
 LIMIT 
-10
-)
+10)
 GROUP BY
 E.country,
 D.city
 ORDER BY
 COUNT(B.customer_id) DESC
 LIMIT
-10
-)
+10)
 GROUP BY
 B.customer_id, 
 B.first_name,
@@ -131,4 +129,4 @@ GROUP BY
 E.country
 ORDER BY
 all_customer_count DESC
-LIMIT 10
+LIMIT 10;
