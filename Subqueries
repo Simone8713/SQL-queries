@@ -131,4 +131,4 @@ GROUP BY
 E.country
 ORDER BY
 all_customer_count DESC
-LIMIT 10
+LIMIT 10;
