@@ -13,4 +13,4 @@ Dataset: http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.
 # Tools
 The dataset was analyzed using a relational database management system and PostgreSQL.
 # Visualizations
-The visualizations for this project were created in Tableau Public. They can be found here: [Rockbuster Visualizations](https://public.tableau.com/app/profile/simone.van.der.graaf/viz/ProjectRockbuster-Careerfoundry/Map2)  
+The visualizations for this project were created in Tableau Public. They can be found here: [Rockbuster Visualizations](https://public.tableau.com/app/profile/simone.van.der.graaf/viz/ProjectRockbuster-Careerfoundry/Rockbuster))  
